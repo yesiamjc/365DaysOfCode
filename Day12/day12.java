@@ -2,14 +2,15 @@ import java.util.Scanner;
 public class day12{
 public static void main(String[] args){
 int a,b;
-char c;
+char ch;
 Scanner myObj=new Scanner(System.in);
-System.out.println("Enter 1st number : ");
+System.out.println("Enter num1 : ");
 a=myObj.nextInt();
-System.out.println("Enter 2nd number : ");
+System.out.println("Enter num2 : ");
 b=myObj.nextInt();
 System.out.println("Enter y/n : ");
-c=myObj.next().charAt(0);
-System.out.println(c+" - add "+a+" + "+b+" "+(a+b));
+ch=myObj.next().charAt(0);
+System.out.println(ch+" - add "+a+" + "+b+" "+(a+b));
 }
 }
+//😁👍
